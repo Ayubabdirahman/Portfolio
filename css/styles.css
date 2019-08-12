@@ -15,7 +15,8 @@
 }
 
 .topnav-right a:hover {
-	color: #61c0bf;;
+	color: #61c0bf;
+	;
 }
 
 a {
@@ -45,9 +46,14 @@ a {
 	color: #61c0bf;
 }
 
-
-.middle-container img{
-margin-left: auto;
-margin-right: auto;
-display: block;
+.middle-container img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 5%;
+}
+.middle-container h2{
+	text-align: center;
+	padding: 1em 0;
+	color: #61c0bf;
 }
