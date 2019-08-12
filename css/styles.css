@@ -15,7 +15,7 @@
 }
 
 .topnav-right a:hover {
-	color: black;
+	color: #61c0bf;;
 }
 
 a {
@@ -31,13 +31,14 @@ a {
 	font-size: 150px;
 	margin-left: 700px;
 	color: #61c0bf;
-	display: inline-block;
+	display: block;
+	margin-bottom: -1%
 }
 
 .top-container p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
-	margin-left: 300px;
+	margin-left: 305px;
 	display: block;
 	margin: 0 300px -70px;
 	text-align: center;
