@@ -7,14 +7,14 @@
 
 .topnav-right {
 	float:right;
-	text-decoration: none;
 }
 
 .topnav-right a:hover {
-	background-color: #f9f7f7;
 	color: black;
 }
 a{
 	text-decoration: none;
 	padding: 5px 15px;
+	color: #ffff;
+
 }
