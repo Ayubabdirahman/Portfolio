@@ -29,12 +29,20 @@ a {
 .top-container h1 {
 	font-family: 'Great Vibes', cursive;
 	font-size: 150px;
-	text-align: center;
+	margin-left: 700px;
 	color: #61c0bf;
+	display: inline-block;
 }
 
 .top-container p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
+	margin-left: 300px;
+	display: block;
+	margin: 0 300px -70px;
 	text-align: center;
+	color: #61c0bf;
+
+
+
 }
