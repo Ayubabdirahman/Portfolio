@@ -1,3 +1,7 @@
+body {
+	text-align: center;
+}
+
 .top-container {
 	background-image: linear-gradient(15.9deg, rgba(240, 30, 30, 0.50) 40.2%, rgba(10, 13, 13, 0.30) 60.3%), url("/home/ayub/Desktop/portfolio/images/background.jpg");
 	height: 800px;
@@ -30,7 +34,7 @@ a {
 .top-container h1 {
 	font-family: 'Great Vibes', cursive;
 	font-size: 150px;
-	margin-left: 700px;
+	margin-left: 80px;
 	color: #61c0bf;
 	display: block;
 	margin-bottom: -1%
@@ -39,11 +43,11 @@ a {
 .top-container p {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2rem;
-	margin-left: 305px;
-	display: block;
-	margin: 0 300px -70px;
+	margin: 1% 300px -70px;
 	text-align: center;
 	color: #61c0bf;
+	display: block;
+	margin-left: 20%;
 }
 
 .middle-container img {
@@ -51,6 +55,7 @@ a {
 	margin-right: auto;
 	display: block;
 	margin-top: 5%;
+	width: 8%;
 }
 
 .middle-container h2 {
@@ -69,4 +74,98 @@ a {
 	margin-bottom: 5%;
 	font-family: 'Montserrat', sans-serif;
 	color: #545454;
+}
+
+hr {
+	border: dotted #eaf6f6 6px;
+	margin: 50px auto;
+	border-bottom: none;
+	width: 4%;
+}
+
+
+.skills h2 {
+	color: #1e836c;
+	text-align: center;
+	font-size: 2.8em;
+	margin-bottom: 0;
+}
+
+.skill-row img {
+	margin-left: 33%;
+	margin-top: 0;
+}
+
+.skill-row h3 {
+	float: right;
+	margin-top: -8%;
+	margin-right: 46%;
+	font-size: 1.5em;
+	color: #45b29a;
+}
+
+.skill-row p {
+	margin-left: 41%;
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: -5%;
+	padding-left: 0 15%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.skillrow img-1 {
+	float: right;
+	position: relative;
+	width: 100%;
+}
+.contact-me{
+	display: inline-block;
+	text-align: center;
+}
+
+.contact-me h2 {
+	color: #1e836c;
+	font-size: 3.8em;
+	margin-top: 0;
+}
+
+.contact-me h3 {
+	font-size: 1.5em;
+	color: #45b29a;
+	display: block;
+}
+
+.contact-message {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	margin-left: 0;
+	display: inline-block;
+	padding: 10px 20px;
+	width: 30%;
+	color: #545454;
+}
+
+.btn {
+	background: #11cdd4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+
+.btn:hover {
+	background: #30e3cb;
+}
+.footer-link{
+	color: #11999E;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+}
+.bottom-container{
+	padding: 50px 0 20px;
+	background-color: #66bfbf;
+}
+
+.copyright{
+	color: #ffff;
 }
