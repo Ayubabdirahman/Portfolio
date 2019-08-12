@@ -1,24 +1,27 @@
+.top-container {
+	background-image: linear-gradient(15.9deg, rgba(240, 30, 30, 0.50) 40.2%, rgba(10, 13, 13, 0.30) 60.3%), url("/home/ayub/Desktop/portfolio/images/background.jpg");
+	height: 800px;
+	background-size: 1900px 900px;
+}
+
 /* navigation section */
 .topnav {
-	background-color: #e23e57;
 	padding: 50px;
-
 }
 
 .topnav-right {
-	float:right;
-	margin-right: 15%;
+	float: right;
+	margin: 0 17%;
 }
 
 .topnav-right a:hover {
 	color: black;
 }
-a{
+
+a {
 	text-decoration: none;
 	padding: 5px 15px;
 	color: #ffff;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5rem;
-
-
 }
